@@ -1,0 +1,10 @@
+#!sh
+[global]
+device = cpu
+floatX = float32
+
+[nvcc]
+fastmath = True
+compiler_bindir=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin
+[dnn]
+enabled=True
